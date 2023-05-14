@@ -1,0 +1,149 @@
+#title{
+    background-color: #ff4c68;
+    padding-left: 5cm;
+    line-height: 1.5;
+}
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    color:#fff;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+}
+h2{
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 4rem;
+    line-height: 200%;
+    font-style: normal;
+}
+h4{
+    font-family: 'Montserrat';
+    
+}
+.container{
+    padding-top: 3%;
+}
+#title-name{
+    font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight:bold;
+}
+.nav-item{
+    padding: 0 13px;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+}
+.middle-icon{
+    font-size: 3.2rem;
+    text-align: center;
+    
+}
+#middle{
+    padding: 8% 17%;
+     font-family: 'Montserrat';
+}
+.middle-text{
+    font-size: 1.5rem;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.m-text{
+    color: grey;
+}
+.col-middle{
+    padding: 20px;
+}
+.icon{
+    color: #f77387;
+    margin-bottom: 2rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testinomial{
+    text-align: center;
+    background-color: #f77387;
+    color: #fff;
+    font-style: italic;
+}
+#testinomial:hover{
+    background-color: #ff4c68;
+}
+.corgi-img{
+    width: 15%;
+    margin: 25px 25px;
+    border-radius: 100%;
+}
+.carousel-item{
+    padding: 9% 25%;
+}
+.corgi-img2{
+    width: 25%;
+    border-radius: 50%;
+    margin:30px 30px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-heading{
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    margin:10px;
+}
+.pricing-col{
+    padding: 4% 6%;
+}
+em{
+    padding-bottom: 5px;
+}
+.pricing-col{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+/* cat heading  */
+#cat{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 8% 20%;
+    text-align: center;
+}
+.cat-heading{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-bottom: 7%;
+    
+}
+/* footer  */
+#footer{
+    padding: 8% 20%;
+    text-align: center;
+}
+.social-icon{
+    margin:2% 2%;
+}
+.download-btn{
+    margin: 2% 2%;
+}
+@media (max-width:1020px) {
+
+    #title{
+        text-align: center;
+        padding-left: 5%;
+    }
+    .title-image{
+        transform: rotate(0);
+        padding: 5% 5%;
+        
+    }
+    .pricing-heading{
+        font-size: 2rem;
+    }
+}
